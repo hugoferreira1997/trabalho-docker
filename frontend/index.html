@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Docker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Projeto Docker</h1>
+        <p>Aplicação com Frontend, Backend e Banco de Dados</p>
+    </header>
+
+    <main>
+
+        <section class="introducao">
+            <h2>Documentação do Projeto</h2>
+
+            <p>
+                Este projeto demonstra a utilização do Docker para executar
+                diferentes serviços em contêineres independentes.
+            </p>
+        </section>
+
+
+        <section class="formulario">
+
+            <h2>Adicionar Post</h2>
+
+            <form id="form-post">
+
+                <label for="titulo">Título</label>
+
+                <input
+                    type="text"
+                    id="titulo"
+                    placeholder="Digite o título"
+                    required
+                >
+
+                <label for="descricao">Descrição</label>
+
+                <textarea
+                    id="descricao"
+                    placeholder="Digite a descrição"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Adicionar
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>Serviços do Projeto</h2>
+
+            <div id="posts">
+                <p>Carregando informações...</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Trabalho de Sistemas Operacionais - Docker</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
